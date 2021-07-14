@@ -20,7 +20,7 @@ int main() {
   printf ("Input n : ");
   scanf ("%d", &n);
 
-  while (count<=n){
+  while (count<n){
     count = count + 1;
     total = total + count;
   }
